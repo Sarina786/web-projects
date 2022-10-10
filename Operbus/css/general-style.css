@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 300;
+font-size: 20px;
+text-rendering: optimizeLegibility;  
+
+}
+.row{
+    margin:0 auto;
+    max-width: 11400px;
+}
+section{
+    padding: 80px 0;
+    
+}

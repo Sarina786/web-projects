@@ -1,0 +1,45 @@
+.sec1{
+    background-image: url(css-pic/unsplash_k9Dc5zT1Gq0.png);
+    color: #fff;
+    margin-top: 80px;
+    position: relative;
+    padding: 130px 0;
+}
+.sec1 h1{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    font-size: 190%;
+}
+.ser2-1{
+width: 38%;
+height: 200px;
+display: inline-block;
+float:left;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 10%;
+margin-bottom: 30%;
+
+}
+.ser2-1 h1{
+   text-transform: uppercase;
+   margin-bottom: 8%;
+   font-size: 185%;
+}
+.ser2-1 p{
+    font-size: 100%;
+    line-height: 110%;
+    margin-bottom: 20%;
+}
+.ser2-1 a{
+    text-decoration: none;
+    padding: 20px 45px;
+    background-color: #1c59a2;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 130%;
+}
+.ser-img{
+    margin-top: 10%;
+}

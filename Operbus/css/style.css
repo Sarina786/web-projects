@@ -1,0 +1,261 @@
+
+.header {
+
+      background-image: url(css-pic/Rectangle\ 5.png);
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+      margin-bottom: 0%;
+       }
+.nav {
+    display: block;
+    height: 80px;
+    width: 100%;
+    z-index: 999;
+    position:fixed;
+    top:0%;
+    left: 0%;
+    background-color:#1c59a2 ;
+    }
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 15px ;
+    margin-left: 25px;
+     }
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+    margin-right:330px ;
+
+}
+.main-nav li{
+display: inline-block;
+margin-left: 40px;
+
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 70%;
+    padding: 8px 0;
+    transform: border-bottom 0.3;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 1px solid #fff;
+}
+
+.envelop{
+    display: block;
+   width: 170px;
+   height: 115px;
+   background-color: #fff; 
+   float:right ;
+   text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+   position: absolute;
+    top: 0%;
+    left: 80%;
+}
+.envelop p{
+    color: #1c59a2;
+    font-weight: 300;
+    font-style: bold;
+    padding-top: 5px;
+
+}
+.hero{
+    float: right ;
+    width: 50%;
+    height: auto;
+    margin-right: 120px;
+    margin-top: 100px;
+    padding: 30px;
+}
+.title{
+    color: #fff;
+    text-align:left;
+    line-height: 120%;
+    font-size: 230%;
+    margin: 180px 130px 60px 100px;
+  
+}
+.btn-hero{
+    padding: 10px 35px;
+    background-color: #fff;
+    color:r#1c59a2 ;
+    border: 1px solid #1c59a2;
+    border-radius: 8px;
+    margin-left: 100px;
+    text-decoration: none;
+    font-weight: 300;
+    font-style: bold;
+
+}
+/* --------------------Nosotros---------------------- */
+.banner1{
+    background-image: url(css-pic/unsplash_RsjQl8dLnfw.png);
+    width:100% ;
+    height: 190px;
+    text-align: left;
+    color: #fff;
+    font-size: 200%;
+    padding: 5%;
+}
+.title2{
+    margin-top: 150px;
+    text-align: left;
+    font-size: 180%;
+    margin-left: 50px;
+    color: #1c59a2;
+}
+.text{
+    width: 360px;
+    height: auto;
+    padding: 10px 5px;
+    text-align:start;
+    margin-left: 50px;  
+    font-size: 120%;
+    font-weight: 300;
+    margin-top: 50px;
+    line-height: 130%;
+    margin-right: 80px;
+    float: left;
+}
+.text span{
+    color:#1c59a2 ;
+    font-style: bold;
+    font-size: 124%;
+}
+
+
+.box{
+    width: 280px;
+    height: auto;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2) ;
+    border-radius: 4px;
+    padding: 20px 30px;
+    font-size: 70%;
+    line-height: 120%;   
+}
+
+.box p{
+    margin-top: 8px;
+}
+.box h3{
+    margin-top:10px;
+    font-size: 130%;
+}
+.box h4{
+   
+    font-size: 130%;
+    line-height: 250%;
+}
+.part2-sec3{
+
+    display: inline-block;
+    width: 600px;
+    height: 420px;
+    float: right;
+    margin-top: 10%;
+}
+.title3{
+    width: 500px;
+    text-align: left;
+    font-size: 190%;
+    color: #1c59a2;
+}
+.part2-sec3 p{
+
+    font-size: 120%;
+    font-weight: 300;
+    margin-top: 30px;
+    line-height: 110%;
+    margin-right: 70px;
+}
+.sec3-pic{
+    width: 50%;
+    height:auto;
+    margin-top: 10%;
+    display: inline-block;
+}
+.sec4{
+    font-size: 120%;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-bottom: 8%;   
+}
+
+.sec1-4 h2{
+    margin-left: 150px;
+}
+.sec1-4 h1{
+    margin-bottom: 8px;
+    margin-left: 180px;
+    padding: 20px;
+    text-align: center;
+}
+.foot{
+ background-color:#1c59a2;
+}
+.footlog{
+    width: 250px;
+    height: 80px;
+    float: left;
+    margin-top: 40px ;
+    margin-left: 120px; 
+}
+.options{
+    color: white;
+    font-size: 100%;
+    line-height: 250%;
+}
+.options p{
+    margin-bottom: 10px;
+    margin-left: 50%;
+}
+.description{
+    color: #fff;
+    width: 500px;
+    height:auto;
+}
+.description h4{
+    margin-bottom: 30px; 
+    margin-left: 40%;
+
+}
+.description p{
+    margin-left: 40%;
+
+}
+.input{
+    color: #fff;
+    width: 400px;
+    height:auto;
+
+}
+.input h2{
+    margin-bottom: 5%;
+    font-size: 170%;
+    margin-left: 20%;
+
+}
+.name{
+    margin-left: 20%;
+    border-radius: 15px;
+    border: none;
+    width: 450px;
+    height: 40px;
+    text-align:start ;
+    padding: 20px;
+    margin-top: 30px;
+
+}

@@ -1,0 +1,100 @@
+body{
+    background-color:rgba(242, 239, 239, 0.889);
+
+}
+.sec1 h1{
+    text-align: center;
+    font-size: 300%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    color: #1c59a2;
+}
+.parebt{
+    position: relative;
+}
+.hero{
+float: left;
+}
+.hero2{
+    float: right;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+}
+
+.sec2-1{
+  margin-top: 0;
+  padding-left: 2%;  
+}
+.sec2-1 img{
+    padding-left: 10px;
+}
+.sec3-1{
+    padding:0 5%;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+.sec3 h1{
+font-size: 300%;
+text-align: left;
+margin-bottom: 30px;
+margin-top: 0%;
+color:  #1c59a2;
+font-weight: 800;
+}
+.sec3 p{
+    line-height: 120%;
+    font-size: 120%;
+    word-spacing: 3px;
+    color: rgb(84, 84, 84);
+}
+.sec4{
+    margin-left: 10%;
+}
+.icon{
+   background-color: #1c59a2;
+    width: 75px;
+    height: 75px;
+    border-radius: 38px;
+     padding: 13px;
+    margin: 15px  80px;
+}
+.box4{
+    width: 300px;
+    height: 250px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2) ;
+    color: #1c59a2;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 10%;
+    background-color: white;
+}
+.sec4 h3{
+    margin-top: 50px;
+    font-size: 160%;
+    font-weight: 700;
+}
+.sec5{
+    margin-left: 7%;
+    margin-bottom: 30%;
+}
+.sec5 h1{
+    font-size: 230%;
+    word-spacing: 1px;
+    margin-bottom: 10%;
+   
+}
+.sec5-btn{
+    padding: 25px 90px;
+    background-color: #1c59a2;
+    color: white;
+    border-radius: 15px;
+    font-size: 120%;
+    text-decoration: none;
+
+}
+.boxes{
+    float: right;
+}
