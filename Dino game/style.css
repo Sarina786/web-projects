@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-position:bottom;
+    background-size: cover;
+   
+
+/* 
+     background-image: url(pic/back2.PNG);
+
+  */
+    
+
+}
+#container{
+  height: 500px;
+  width: 75%;
+    position: relative;
+    overflow: hidden;
+   
+
+ 
+}
+/*****  Dino   **********/
+
+ #dino{
+    width: 80px;
+    height: 90px;
+    position: absolute;
+    left: 15px;
+    bottom: 20%;
+    padding: 0;
+
+
+}
+#dino img{
+    width: 130px;
+    height: 120px;
+}
+.dinoActive{
+    animation: animateDino 0.5s linear infinite;
+
+}
+@keyframes animateDino {
+    0%,100%{
+        bottom: 28px;
+    }
+    35%,85%{
+        bottom: 250px;
+    }   
+}
+
+/* ********   Block **********/
+#block{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    bottom: 15%;
+   right: 20px;
+}
+#block img{
+    width: 100px;
+    height: 80px; 
+}
+.blockActive{
+    animation: animateBlock 0.70s linear infinite;
+}
+@keyframes animateBlock{
+    0%{
+         right:-125px;
+    }
+    100%{
+   right: 100%;
+    }
+}
+/*****   Cloud   **********/
+#cloud{
+    width: 250px;
+    height: 110px;
+    position: absolute;
+    left: 60%;
+    top: 0;
+    border-radius: 15px;
+
+}
+#cloud img{
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    left: -500px;
+
+}
+.cloudActive{
+    animation: animateCloud 1.50s linear infinite;
+}
+@keyframes animateCloud {
+    
+    0%{
+        left: -500px;
+   }
+   100%{
+
+  left: 100%;
+  
+   }
+}
+/*****   Road   **********/
+
+#road{
+    position: absolute;
+    bottom:10%;
+    right: 20px;
+    width: 100%;
+}
+.roadActive{
+    animation: animateRoad 1.90s linear infinite;
+}
+@keyframes animateRoad {
+    
+    0%{
+        right:-125px;
+   }
+   100%{
+
+  right: 100%;
+
+   }
+}
+#score{
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    width: auto;
+    height: auto;
+    font-size: 25px;
+}
+#gameOver{
+    font-size: 70px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    width: 362px;
+    height: 80px;
+    color: #525252;
+    display: none;
+}
