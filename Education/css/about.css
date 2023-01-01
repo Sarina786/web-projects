@@ -1,0 +1,153 @@
+.about{
+    margin-top: 3rem;
+
+}
+.about_container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.right_about p{
+    margin: 1.6rem 0 2.5rem;
+}
+.about_cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+.card{
+    background: var(--color-bg1);
+    padding: 1.6rem;
+    border-radius: 3rem;
+    text-align: center;
+    transition: var(--transmition);
+}
+.card:hover{
+    background: var(--color-bg2);
+    box-shadow: 0 3rem 3rem rgba(0,0,0,0.3);
+
+}
+.about_icon{
+    background-color: var(--color-warning);
+    padding: 0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.card:nth-child(2) .about_icon{
+    background-color: var(--color-success);
+}
+.card:nth-child(3) .about_icon{
+    background-color: var(--color-primary);
+}
+.card p{
+    margin-top:1rem ;
+}
+/*******************************************/
+.team{
+    background: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0,0,0,0.5);
+}
+.team_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+.team_member{
+    background: var(--color-bg2);
+    padding: 2rem;
+    border: 1px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+.team_member:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+.team_img{
+    filter: saturate(0);
+}
+.team_img:hover{
+    filter: saturate(1);
+}
+.team_member_info * {
+    text-align: center;
+    margin-top: 1.4rem;
+
+}
+.team_member_info p{
+    color: var(--color-bright);
+}
+.team_mem_socials{
+    position: absolute;
+    top: 50%;
+    right: -100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-primary);
+    border-radius: 1rem 0 0 1rem;
+    transform: translateY(-50%);
+    box-shadow:  -2re 0 2rem rgba(0,0,0,0.3);
+    transition: var(--transmition);
+
+}
+.team_member:hover
+.team_mem_socials{
+    right: 0;
+}
+.team_mem_socials a{
+    padding: 1rem;
+}
+
+ /*******************************ABOUT*******************/
+ @media screen and (max-width:1024px) {
+
+    .about{
+        margin-top: 2rem;
+    }
+        .about_container{
+        grid-template-columns: 1fr;
+        gap:4rem;
+    
+    }
+    .left_about{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .team_container{
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.5rem;
+    }
+    .team_member{
+        padding: 1rem;
+    }
+    }
+    @media screen and (max-width:600px) {
+      
+        .about_cards{
+            grid-template-columns: 1fr 1fr;
+            gap: 0.7rem;
+        }
+        .team_container{
+            grid-template-columns: 1fr 1fr;
+            gap: 0.7rem;
+        }
+        .team_member{
+            padding: 0;
+        }
+        .team_member p{
+            margin-bottom: 1.5rem;
+        }
+        
+    }
+    
+           
+
+
+
+
+
+
+
