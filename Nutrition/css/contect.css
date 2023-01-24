@@ -1,0 +1,135 @@
+body{
+   /* background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url(pic/1673192300592.jpg);*/
+   background-color: rgba(247, 243, 243, 0.431);
+
+}
+nav{
+    background-color: var(--color-gray);
+}
+.contect_container{
+    background-color: var(--color-container);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+    height: 30rem;
+    margin: 7rem auto;
+    border-radius: 1rem;
+}
+/************************************************/
+.contect_aside{
+    background: var(--color-prim);
+    padding: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 10rem;
+
+}
+.con{
+    width: 17rem;
+}
+.aside image img{
+    width: 12rem;
+    margin-bottom: 2rem;
+}
+.contect_aside h2{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.contect_aside p{
+    font-size: 00.9rem;
+    margin-bottom: 2rem;
+}
+.contect_details li{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.contect_socials{
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 3rem;
+
+}
+.contect_socials a{
+    background: var(--color-container);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    transition: var(--transmition);
+}
+.contect_socials a:hover{
+    background: transparent;
+}
+/************FORM*******************************/
+.contect_form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    margin-right: 4rem;
+}
+.form_name{
+    display: flex;
+    gap: 1.2rem;
+}
+.contect_form input type text {
+width:50%;
+}
+input, textarea{
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(26, 25, 25, 0.891);
+    color: var(--color-headings);
+}
+.contect_form .btn{
+    width: max-content;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+         /*******************************CONTECT*******************/
+         @media screen and (max-width:1024px) {
+   
+   
+            .contect_container{
+             gap: 1.5rem;
+             margin-top: 3rem;
+             height: auto;
+             padding: 1.5rem;
+            } 
+            .contect_aside{
+             width: auto;
+             padding: 1.5rem;
+             bottom: 0;
+         
+            }
+            .contect_form{
+             align-self: center;
+             margin-right: 1.5rem;
+            }
+         }
+                 
+  /*******************************CONTECT*******************/
+@media screen and (max-width:600px) {
+    .contect_container{
+       grid-template-columns: 1fr;
+       gap: 0;
+       padding: 0;
+       margin: 3rem;
+              } 
+              .contect_form{
+               margin: 2rem 1.5rem 3rem;
+              }
+              .form_name{
+               flex-direction: column;
+              }
+              .form_name input{
+               width: 100%;
+              }
+   
+           }
+            
+
+ 

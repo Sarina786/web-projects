@@ -1,0 +1,227 @@
+
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url(pic/background.jpg);
+    align-items: center;
+    object-fit: cover;
+    background-size: cover;
+    margin-top: 4rem;
+}
+.container-header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 7rem;
+    margin: 3rem auto;
+    transition: var(--transmition);
+    padding: 13rem;
+}
+.btn{
+    padding: 0.8rem 3rem;
+    border: 1px solid transparent;
+    font-weight: 600;
+    display: inline-block;
+    background-color:rgba(247, 110, 12, 0.767);
+    color: var(--color-headings);
+}
+.left-container h2{
+font-size: 1.7rem;
+margin-bottom: 2rem;
+
+}
+.right-container p{
+    color: var(--color-bright);
+
+}
+/*****************************************/
+.text-container{
+    text-align: center;
+    width: 90%;
+    background-color: rgba(123, 116, 116, 0.476);
+    padding: 5rem;
+    box-shadow: 0 3rem 3rem rgba(0,0,0,0.3);
+    text-align: left;
+    transition: var(--transmition);
+
+}
+.text-container2{
+    text-align: center;
+    width: 90%;
+    background-image: url(pic/obacity.jpg);
+    object-position: cover;
+    background-size: cover;
+    margin-top: 3rem;
+    padding: 5rem;
+    box-shadow: 0 3rem 3rem rgba(0,0,0,0.3);
+    text-align: left;
+    transition: var(--transmition);
+
+}
+.text-container h1,
+.text-container2
+ h1{
+    color: var(--color-headings);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.text-container2 h4{
+    color:antiquewhite
+}
+.text p{
+    margin-bottom: 5rem;
+    color: var(--color-gray);
+    
+}
+.text-container:hover{
+    opacity: 0.8;
+}
+/***************foods*******************/
+.animation {
+    text-align: center;
+    margin-top: 4rem;
+}
+.animation h1{
+    margin-bottom: 3rem;
+}
+.ani-showcase{
+    list-style: none;
+    width: 100%;
+    height: 30rem;
+}
+.ani-showcase li{
+    display: block;
+    width: 25%;
+    float: left;
+}
+.photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+
+}
+.photo img{
+opacity: 0.7;
+height:15rem ;
+width: 100%;
+transform: scale(1.15);
+transition: transform 0.15s,opacity 0.5s;
+}
+.photo img:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+
+/************************************BMI**********************************/
+.bmi-container{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url(pic/banner.jpg);
+    object-fit: cover;
+    background-size:auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
+}
+.bmi-container h2{
+    margin-bottom: 1rem;
+    color: rgb(33, 33, 33);
+}
+.bmi-container p{
+    color: var(--color-gray);
+    margin-bottom: 1.5rem;
+}
+
+/************************************CATAGORIES**********************************/
+.catagories{
+    margin-top: 5rem;
+
+}
+.catagori_img img{
+    width: 21rem;
+    height: 15rem;
+    object-fit: cover;
+    
+}
+.catagories_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.catagori{
+    background: var(--color-prim);
+    border: 1px solid black;
+    text-align: center;
+    transition: var(--transmition);
+}
+.catagori:hover{
+    background:black;
+    border-color: var(--color-gray);
+}
+.catagori_info{
+    padding: 2rem;
+}
+.catagori_info p{
+    padding: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
+/****************media**********************************/
+@media screen and (max-width:1024px){
+   .container{
+    width: var(--container-width-md);
+   }
+   
+    .left-container h2{
+        font-size: 1.5rem;
+    }
+    .ani-showcase{
+      
+        height: 28rem;
+    }
+    .catagories_container{
+        grid-template-columns: repeat(2,1fr);
+    }
+  
+   
+}
+@media screen and (max-width:600px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+    .container-header{
+        grid-template-columns: 1fr;
+        padding: 7rem;
+    }
+    .text-container{
+        padding: 1rem;
+    }
+    .left-container{
+        width: 15rem;
+
+    }
+    .photo img{
+    height:10rem ;
+   
+    }
+    .catagories{
+padding: 4rem;
+
+    }
+    .catagories_container{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .catagori{
+        width: 21.5rem;
+    }
+    .text-container2{
+        width: 85%;
+        padding: 1rem;
+        background-size:contain;
+    }
+
+
+
+  
+
+   
+    
+}
